@@ -297,7 +297,7 @@ def plt_divergence(p_hist, J_hist, x_train,y_train):
 
     # Print w vs cost to see minimum
     fix_b = 100
-    w_array = np.arange(-70000, 70000, 1000)
+    w_array = np.arange(-700, 700, 10)
     cost = np.zeros_like(w_array)
 
     for i in range(len(w_array)):
