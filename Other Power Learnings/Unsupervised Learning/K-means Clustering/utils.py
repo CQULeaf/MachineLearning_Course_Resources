@@ -4,7 +4,7 @@ from matplotlib.colors import ListedColormap
 from mpl_toolkits.mplot3d import Axes3D
 
 def load_data():
-    X = np.load("../data/ex7_X.npy")
+    X = np.load("data/ex7_X.npy")
     return X
 
 def draw_line(p1, p2, style="-k", linewidth=1):
